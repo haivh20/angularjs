@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css "
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body ng-app="myApp">
+    <div class="wrap">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col d-flex justify-content-between">
+            <div class="social-media">
+              <p class="mb-0 d-flex">
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><span class="fa-brands fa-facebook-f"
+                    ><i class="sr-only">Facebook</i></span
+                  ></a
+                >
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><span class="fa-brands fa-twitter"
+                    ><i class="sr-only">Twitter</i></span
+                  ></a
+                >
+              </p>
+            </div>
+            <div class="social-media">
+              <p class="mb-0 d-flex">
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><span class="fa-brands fa-instagram"
+                    ><i class="sr-only">Instagram</i></span
+                  ></a
+                >
+
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><span class="fa-brands fa-dribbble"
+                    ><i class="sr-only">Dribbble</i></span
+                  ></a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a class="navbar-brand" href="#">Vacation Rental</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#!/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!/room">Apartment Room</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#!/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!/contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!/adminHome">AdminHome</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header end -->
+    <!--r Nav start -->
+
+    <!-- Nav end -->
+
+    <div ng-view></div>
+
+    <footer class="footer mt-5" style="background-color: var(--bs-body-color)">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-8">
+            <p class="mb-0" style="color: rgba(255, 255, 255, 0.3)">
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Footer
+              <i class="fa fa-heart" aria-hidden="true"></i> by n
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 text-white">
+            <p class="d-flex justify-content-between">
+              <a
+                class="mr-md-3"
+                href="#"
+                style="color: rgba(255, 255, 255, 0.7)"
+                >Terms</a
+              >
+              <a
+                class="mr-md-3"
+                href="#"
+                style="color: rgba(255, 255, 255, 0.7)"
+                >Privacy</a
+              >
+              <a
+                class="mr-md-3"
+                href="#"
+                style="color: rgba(255, 255, 255, 0.7)"
+                >Compliances</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- loader -->
+  </body>
+
+  <!-- js -->
+  <!-- <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"
+  ></script> -->
+  <!-- js -->
+
+  <!-- angular -->
+  <script src="lib/angular.min.js"></script>
+  <script src="lib/angular.route.min.js"></script>
+
+  <!-- <script src="controller/indexController.js"></script> -->
+  <script src="controller/aboutController.js"></script>
+  <script src="controller/blogController.js"></script>
+  <script src="controller/homeController.js"></script>
+  <script src="controller/roomController.js"></script>
+  <script src="controller/serviceController.js"></script>
+  <script src="controller/contactController.js"></script>
+  <script src="controller/adminHomeController.js"></script>
+  <!-- controller -->
+
+  <!-- root controller -->
+  <script src="controller/indexController.js"></script>
+</html>

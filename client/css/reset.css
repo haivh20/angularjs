@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+li {
+  list-style-type: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.img,
+.blog-img,
+.user-img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.pagination-blog li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: gray;
+  display: inline-block;
+  border: 1px solid #e6e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pagination-blog li a {
+  color: gray;
+}
+
+.active-pagination {
+  background-color: #fd7792;
+  border: none;
+}
+
+.active-pagination a {
+  color: #fff !important;
+}
+
+.address {
+  display: flex;
+}
+.address i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address span {
+  margin-left: 2rem;
+}
+
+
+
+/* validate form in agularjs */

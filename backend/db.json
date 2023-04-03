@@ -1,0 +1,16 @@
+{
+  "home": [
+    {
+      "fullName": "Hai Khuat Van",
+      "passport": "131232131231",
+      "email": "vanhai20021@gmail.com",
+      "gender": "male",
+      "phoneNumber": "03789198132",
+      "flight": "VietJet",
+      "birthday": "2023-04-14T17:00:00.000Z",
+      "luggage": "Vali , Quan ao",
+      "payment": "cod",
+      "id": 1
+    }
+  ]
+}
